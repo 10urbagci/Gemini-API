@@ -20,7 +20,7 @@ def main():
 
     if st.button("Run"):
         response = model.generate_content(question)
-        st.text_area("Cevap:", response.text, height=300)
+        st.text_area("Answer:", response.text, height=300)
 
 if __name__ == "__main__":
     main()
